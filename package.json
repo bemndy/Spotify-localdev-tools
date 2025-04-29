@@ -1,0 +1,28 @@
+{
+  "name": "spotifylocalvisualizer",
+  "version": "1.0.0",
+  "description": "Spotify Real-Time Lyric Translator + Visualizer + Downloader 🌎🎶 All-in-one web app that connects to Spotify to:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bemndy/Spotify-localvisualizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bemndy/Spotify-localvisualizer/issues"
+  },
+  "homepage": "https://github.com/bemndy/Spotify-localvisualizer#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
