@@ -2,9 +2,10 @@
   "name": "spotifylocalvisualizer",
   "version": "1.0.0",
   "description": "Spotify Real-Time Lyric Translator + Visualizer + Downloader 🌎🎶 All-in-one web app that connects to Spotify to:",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon app.js"
   },
   "repository": {
     "type": "git",
