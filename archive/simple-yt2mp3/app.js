@@ -1,6 +1,6 @@
 //required packages
 const express = require('express'); 
-const fetch = require('node-fetch'); 
+const fetch = require('node-fetch');
 require("dotenv").config();
 
 //create express server
@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/convert-mp3', async (req, res) => {
-    const youtubeUrl  = req.body.youtubeUrl;
+    const youtubeUrl = req.body.youtubeUrl;
     if(
         youtubeUrl === undefined ||
         youtubeUrl === null ||
@@ -51,7 +51,7 @@ app.post('/convert-mp3', async (req, res) => {
 
         const fetchResponse = await fetchAPI.json();
         if (fetchResponse.status === "ok") {
-            return res.render("index", { success: true, song_link: fetchResponse.link, song_title: fetchResponse.title }, ); 
+            return res.render("index", { success: true, song_link: fetchResponse.link, song_title: fetchResponse.title }); 
         } else {
             return res.render("index", { success: false, message: fetchResponse.msg });
         }

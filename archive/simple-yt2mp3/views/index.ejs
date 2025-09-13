@@ -159,20 +159,15 @@
             <form action="/convert-mp3" method="POST" id="form">
                 <label for="youtube-url">YouTube Video URL:</label>
                 <input type="url" id="youtube-url" name="youtubeUrl" required placeholder="Paste YouTube link here">
-                <button type="convert-btn">Convert</button>
+                <button type="submit">Convert & Download</button>
             </form>
         </div>
         <div id="result-container">
-            <% if (typeof success != "undefined" && success) { %>
-                <div class="success">
-                    <h2><%= song_title %></h2>
-                    <p>Your MP3 file is ready for download:</p>
-                    <a href="<%= song_link %>" id="download-btn" download>Download</a>
-                </div>
-            <% } else if (typeof success != "undefined" && !success) { %>
+            <% if (typeof success != "undefined" && !success) { %>
                 <div class="error">
                     <h2>Error Has Occurred</h2>
                     <p><%= message %></p>
+                </div>
             <% } %>
                 </div>
         </div>
