@@ -27,7 +27,7 @@ Lyrics downloader – save translated lyrics instantly
 Fully responsive and minimal UI – works on desktop, tablet, mobile
 
 🛠 Tech Stack
-Next.js / React
+React.js (maybe next.js probably not)
 
 TailwindCSS for styling
 
@@ -40,7 +40,7 @@ Google Translate API (or DeepL) for translation
 Canvas/WebGL for visualizer animations
 
 🚀 Setup Instructions
-(Include your setup steps here, like getting Spotify Client ID, setting up API keys, running npm run dev, etc.)
+rapidapi not working.........
 
 📜 License
 MIT License. Feel free to fork and contribute!
